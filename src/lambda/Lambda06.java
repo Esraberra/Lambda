@@ -19,7 +19,6 @@ public class Lambda06 {
         System.out.println(uniList.stream().allMatch(t -> t.getNotOrtalama() > 91));
 //2)Ders adlarından en az birinin "Matematik" kelimesini içerip içermediğini kontrol etmek için bir yöntem oluşturun
         System.out.println(uniList.stream().anyMatch(t -> t.getBolum().contains("Matematik")));
-
         //4)Not ortalamasına göre artan sıralama yapıp ilk elemanı atla ve list olarak yazdır
       //  (uniList.stream().sorted(Comparator.comparing(UniversiteLambda6::getNotOrtalama)).skip(1).forEach(metodLambda2::bosluklaYazdir);
 

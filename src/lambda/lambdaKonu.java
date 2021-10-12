@@ -44,10 +44,10 @@ tekSayiKare(l);
         System.out.println();
         ciftSayiKareToplam(l);
         System.out.println();
+
         ciftSayiKüplambda(l);
         System.out.println();
         listeTersSiralama(l);
-
 
     }
 
